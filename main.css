@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar,
+.card-menu {
+    background-color: #030e4f;
+}
+
+.nav .nav-link.active,
+#fale-conosco button {
+    background-color:#f49f1c;
+    color: #e0ffff;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #e0ffff;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+#eventos {
+    background-color: #f49f1c;
+}
+
+.section-title {
+    color:#030e4f;
+}
+.text-colored {
+    color: #f49f1c;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
