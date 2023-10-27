@@ -7,16 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./bs codigo/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./bs codigo/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css"><!--cdn css bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"><!--bootstrap icon-->
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header class="navbar navbar-expand-lg block sticky-top p-4">
+    <header class="navbar navbar-expand-lg block sticky-top p-4"><!--começando o inicio do cabeçalho do site-->
         <div class="container">
-            <h1 class="navbar-brand m-0">Os Grandes Felinos</h1>
+            <h1 class="navbar-brand m-0">Os Grandes Felinos</h1><!--barra de navegação-->
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span><!--icon de hamburguer-->
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
@@ -26,7 +26,7 @@
                             Sobre os animais
                         </a>
                     </li>
-                    <li class="nav-item fw-bold">
+                    <li class="nav-item d-block fw-bold">
                         <a href="#eventos" class="nav-link me-1">
                             <i class="bi bi-house"></i>
                             Eventos
@@ -42,7 +42,7 @@
             </nav>
         </div>
     </header>
-    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true"><!-- inicio estilização da classe carousel-->
         <section>
             <div id="carousel-animais" class="carousel carousel-fade slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -64,8 +64,8 @@
                             <h2>Onça no pantanal</h2>
                         </div>
                     </div>
-                </div>
-                <button data-bs-target="#carousel-animais" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                </div><!-- inicio estilização da classe carousel-->
+                <button data-bs-target="#carousel-animais" data-bs-slide="prev" class="carousel-control-prev" type="button"><!--inicio dos botões e icones do carousel-->
                     <span class="carousel-control-prev-icon"></span>
                 </button>
                 <button data-bs-target="#carousel-animais" data-bs-slide="next" class="carousel-control-next" type="button">
@@ -75,43 +75,50 @@
                     <button type="button" data-bs-target="carousel-animais" class="active" data-bs-slide-to="0"></button>
                     <button type="button" data-bs-target="carousel-animais" data-bs-slide-to="1"></button>
                     <button type="button" data-bs-target="carousel-animais" data-bs-slide-to="2"></button>
-                </div>
+                </div><!--Fim dos botões e icones do carousel-->
             </div>
         </section>
-        <section id="eventos" class="pt-5 pb-5">
+        <section id="eventos" class="pt-5 pb-5"> <!--Inicio do grids sessão sobre felinos-->
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-center">Sobre os <span>Felinos</span></h2>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-4 text-center">
                         <img src="./leoes/leao 01.jpg" alt="leão na selva" class="d-block w-100 rounded mb-3">
                         <h3 class="section-title fs-3">Leão</h3>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo minima repudiandae vel placeat? Assumenda illum voluptates qui doloremque non architecto sed! Praesentium saepe eum, molestias natus doloribus fuga nesciunt. 
                         </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-4 text-center">
                         <img src="./leoes/tigre.jpg" alt="leão na selva" class="d-block w-100 rounded mb-3">
                         <h3 class="section-title fs-3">Tigre</h3>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo minima repudiandae vel placeat? Assumenda illum voluptates qui doloremque non architecto sed! Praesentium saepe eum, molestias natus doloribus fuga nesciunt. 
                         </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-4 text-center">
                         <img src="./leoes/onça.jpg" alt="leão na selva" class="d-block w-100 rounded mb-3">
                         <h3 class="section-title fs-3">Onça pintada</h3>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo minima repudiandae vel placeat? Assumenda illum voluptates qui doloremque non architecto sed! Praesentium saepe eum, molestias natus doloribus fuga nesciunt. 
                         </p>
                     </div>
-                </div>
+                    <div class="col-md-6 col-lg-4 text-center">
+                        <img src="./leoes/leoardo ou jaguar.jpg" alt="Leopardo na selva" class="d-block w-100 rounded mb-3">
+                        <h3 class="section-title fs-3">Leopardo</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo minima repudiandae vel placeat? Assumenda illum voluptates qui doloremque non architecto sed! Praesentium saepe eum, molestias natus doloribus fuga nesciunt. 
+                        </p>
+                    </div>
+                </div> <!--fim do grids e sua estilização-->
             </div>
         </section>
-        <section id="fale-conosco" class="pt-5 pb-5">
+        <section id="fale-conosco" class="pt-5 pb-5"><!--inico do formulario de contato-->
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center">fale conosco</h2>
+                    <h2 class="section-title">fale conosco</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-7 mb-5">
@@ -132,10 +139,10 @@
                                 <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
                                 <textarea class="form-control" id="mensagem" required></textarea>
                             </div>
-                            <button type="submit" class="btn fw-bold">Enviar</button>
+                            <button type="submit" class="btn fw-bold">Enviar</button> <!--fim do formulário e sua estilização pelo bootstrap-->
                         </form>
-                    </div>
-                    <div class="col-md-5">
+                        </div>
+                    <div class="col-md-5"><!--aqui começa a classe de rede social e links-->
                         <div class="row">
                             <h3 class="section-title fs-4">
                                 <i class="bi bi-hand-thumbs-up-fill"></i>
@@ -167,14 +174,11 @@
                             <p>
                                 Rua teste Exempo n° 145, Bairro Bootstrap - São Paulo - SP
                             </p>
-                        </div>
+                        </div><!--Fim da classe de rede social e links e endereços-->
                     </div>
                 </div>
             </div>
         </section>
-
-
-
     </div>
         
     <script src="./bs codigo/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
